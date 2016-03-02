@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D8CA4521C86849100D029D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8CA4511C86849100D029D4 /* main.m */; };
+		6D8CA4551C86849100D029D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8CA4541C86849100D029D4 /* AppDelegate.m */; };
+		6D8CA4581C86849100D029D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8CA4571C86849100D029D4 /* ViewController.m */; };
+		6D8CA45B1C86849100D029D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8CA4591C86849100D029D4 /* Main.storyboard */; };
+		6D8CA45D1C86849100D029D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D8CA45C1C86849100D029D4 /* Assets.xcassets */; };
+		6D8CA4601C86849100D029D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8CA45E1C86849100D029D4 /* LaunchScreen.storyboard */; };
+		6D8CA46B1C86849100D029D4 /* RosaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8CA46A1C86849100D029D4 /* RosaryTests.m */; };
+		6D8CA4761C86849100D029D4 /* RosaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8CA4751C86849100D029D4 /* RosaryUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D8CA4671C86849100D029D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D8CA4451C86849000D029D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D8CA44C1C86849100D029D4;
+			remoteInfo = Rosary;
+		};
+		6D8CA4721C86849100D029D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D8CA4451C86849000D029D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D8CA44C1C86849100D029D4;
+			remoteInfo = Rosary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D8CA44D1C86849100D029D4 /* Rosary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rosary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8CA4511C86849100D029D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D8CA4531C86849100D029D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D8CA4541C86849100D029D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D8CA4561C86849100D029D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D8CA4571C86849100D029D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D8CA45A1C86849100D029D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D8CA45C1C86849100D029D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D8CA45F1C86849100D029D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D8CA4611C86849100D029D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D8CA4661C86849100D029D4 /* RosaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RosaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8CA46A1C86849100D029D4 /* RosaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RosaryTests.m; sourceTree = "<group>"; };
+		6D8CA46C1C86849100D029D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D8CA4711C86849100D029D4 /* RosaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RosaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8CA4751C86849100D029D4 /* RosaryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RosaryUITests.m; sourceTree = "<group>"; };
+		6D8CA4771C86849100D029D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D8CA44A1C86849100D029D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8CA4631C86849100D029D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8CA46E1C86849100D029D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D8CA4441C86849000D029D4 = {
+			isa = PBXGroup;
+			children = (
+				6D8CA44F1C86849100D029D4 /* Rosary */,
+				6D8CA4691C86849100D029D4 /* RosaryTests */,
+				6D8CA4741C86849100D029D4 /* RosaryUITests */,
+				6D8CA44E1C86849100D029D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D8CA44E1C86849100D029D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D8CA44D1C86849100D029D4 /* Rosary.app */,
+				6D8CA4661C86849100D029D4 /* RosaryTests.xctest */,
+				6D8CA4711C86849100D029D4 /* RosaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D8CA44F1C86849100D029D4 /* Rosary */ = {
+			isa = PBXGroup;
+			children = (
+				6D8CA4531C86849100D029D4 /* AppDelegate.h */,
+				6D8CA4541C86849100D029D4 /* AppDelegate.m */,
+				6D8CA4561C86849100D029D4 /* ViewController.h */,
+				6D8CA4571C86849100D029D4 /* ViewController.m */,
+				6D8CA4591C86849100D029D4 /* Main.storyboard */,
+				6D8CA45C1C86849100D029D4 /* Assets.xcassets */,
+				6D8CA45E1C86849100D029D4 /* LaunchScreen.storyboard */,
+				6D8CA4611C86849100D029D4 /* Info.plist */,
+				6D8CA4501C86849100D029D4 /* Supporting Files */,
+			);
+			path = Rosary;
+			sourceTree = "<group>";
+		};
+		6D8CA4501C86849100D029D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D8CA4511C86849100D029D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D8CA4691C86849100D029D4 /* RosaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D8CA46A1C86849100D029D4 /* RosaryTests.m */,
+				6D8CA46C1C86849100D029D4 /* Info.plist */,
+			);
+			path = RosaryTests;
+			sourceTree = "<group>";
+		};
+		6D8CA4741C86849100D029D4 /* RosaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D8CA4751C86849100D029D4 /* RosaryUITests.m */,
+				6D8CA4771C86849100D029D4 /* Info.plist */,
+			);
+			path = RosaryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D8CA44C1C86849100D029D4 /* Rosary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D8CA47A1C86849100D029D4 /* Build configuration list for PBXNativeTarget "Rosary" */;
+			buildPhases = (
+				6D8CA4491C86849100D029D4 /* Sources */,
+				6D8CA44A1C86849100D029D4 /* Frameworks */,
+				6D8CA44B1C86849100D029D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rosary;
+			productName = Rosary;
+			productReference = 6D8CA44D1C86849100D029D4 /* Rosary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D8CA4651C86849100D029D4 /* RosaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D8CA47D1C86849100D029D4 /* Build configuration list for PBXNativeTarget "RosaryTests" */;
+			buildPhases = (
+				6D8CA4621C86849100D029D4 /* Sources */,
+				6D8CA4631C86849100D029D4 /* Frameworks */,
+				6D8CA4641C86849100D029D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D8CA4681C86849100D029D4 /* PBXTargetDependency */,
+			);
+			name = RosaryTests;
+			productName = RosaryTests;
+			productReference = 6D8CA4661C86849100D029D4 /* RosaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D8CA4701C86849100D029D4 /* RosaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D8CA4801C86849100D029D4 /* Build configuration list for PBXNativeTarget "RosaryUITests" */;
+			buildPhases = (
+				6D8CA46D1C86849100D029D4 /* Sources */,
+				6D8CA46E1C86849100D029D4 /* Frameworks */,
+				6D8CA46F1C86849100D029D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D8CA4731C86849100D029D4 /* PBXTargetDependency */,
+			);
+			name = RosaryUITests;
+			productName = RosaryUITests;
+			productReference = 6D8CA4711C86849100D029D4 /* RosaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D8CA4451C86849000D029D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Xiulan Shi";
+				TargetAttributes = {
+					6D8CA44C1C86849100D029D4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					6D8CA4651C86849100D029D4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6D8CA44C1C86849100D029D4;
+					};
+					6D8CA4701C86849100D029D4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6D8CA44C1C86849100D029D4;
+					};
+				};
+			};
+			buildConfigurationList = 6D8CA4481C86849100D029D4 /* Build configuration list for PBXProject "Rosary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D8CA4441C86849000D029D4;
+			productRefGroup = 6D8CA44E1C86849100D029D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D8CA44C1C86849100D029D4 /* Rosary */,
+				6D8CA4651C86849100D029D4 /* RosaryTests */,
+				6D8CA4701C86849100D029D4 /* RosaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D8CA44B1C86849100D029D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8CA4601C86849100D029D4 /* LaunchScreen.storyboard in Resources */,
+				6D8CA45D1C86849100D029D4 /* Assets.xcassets in Resources */,
+				6D8CA45B1C86849100D029D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8CA4641C86849100D029D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8CA46F1C86849100D029D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D8CA4491C86849100D029D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8CA4581C86849100D029D4 /* ViewController.m in Sources */,
+				6D8CA4551C86849100D029D4 /* AppDelegate.m in Sources */,
+				6D8CA4521C86849100D029D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8CA4621C86849100D029D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8CA46B1C86849100D029D4 /* RosaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8CA46D1C86849100D029D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8CA4761C86849100D029D4 /* RosaryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D8CA4681C86849100D029D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D8CA44C1C86849100D029D4 /* Rosary */;
+			targetProxy = 6D8CA4671C86849100D029D4 /* PBXContainerItemProxy */;
+		};
+		6D8CA4731C86849100D029D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D8CA44C1C86849100D029D4 /* Rosary */;
+			targetProxy = 6D8CA4721C86849100D029D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D8CA4591C86849100D029D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D8CA45A1C86849100D029D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D8CA45E1C86849100D029D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D8CA45F1C86849100D029D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D8CA4781C86849100D029D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D8CA4791C86849100D029D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D8CA47B1C86849100D029D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rosary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiulanshi.Rosary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D8CA47C1C86849100D029D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rosary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiulanshi.Rosary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D8CA47E1C86849100D029D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RosaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiulanshi.RosaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rosary.app/Rosary";
+			};
+			name = Debug;
+		};
+		6D8CA47F1C86849100D029D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RosaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiulanshi.RosaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rosary.app/Rosary";
+			};
+			name = Release;
+		};
+		6D8CA4811C86849100D029D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RosaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiulanshi.RosaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Rosary;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6D8CA4821C86849100D029D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RosaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiulanshi.RosaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Rosary;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D8CA4481C86849100D029D4 /* Build configuration list for PBXProject "Rosary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8CA4781C86849100D029D4 /* Debug */,
+				6D8CA4791C86849100D029D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D8CA47A1C86849100D029D4 /* Build configuration list for PBXNativeTarget "Rosary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8CA47B1C86849100D029D4 /* Debug */,
+				6D8CA47C1C86849100D029D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D8CA47D1C86849100D029D4 /* Build configuration list for PBXNativeTarget "RosaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8CA47E1C86849100D029D4 /* Debug */,
+				6D8CA47F1C86849100D029D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D8CA4801C86849100D029D4 /* Build configuration list for PBXNativeTarget "RosaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8CA4811C86849100D029D4 /* Debug */,
+				6D8CA4821C86849100D029D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D8CA4451C86849000D029D4 /* Project object */;
+}
